@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marin",
+				"margin-left\tproperty"
+			],
+			[
+				"butt",
+				"buttonElementId"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"but",
+				"buttonElementId"
+			],
+			[
+				"word",
+				"word-wrap\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"left",
+				"margin-left\tproperty"
+			],
+			[
+				"ra",
+				"border-radius\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"effe",
+				"effectback"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"te",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"backgrou",
+				"background-image\tproperty"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"fon",
+				"font-size-adjust\tproperty"
+			],
+			[
+				"font-",
+				"font-style\tproperty"
+			],
+			[
+				"bore",
+				"border-style\tproperty"
+			],
+			[
+				"border-left-",
+				"border-left-color\tproperty"
+			],
+			[
+				"border",
+				"border-left\tproperty"
+			],
+			[
+				"do",
+				"double\tborder-style"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"justif",
+				"justify-all\ttext-align"
+			],
+			[
+				"my",
+				"mysirg"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"c",
+				"cellpadding\tAttr"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"final",
+				"final_keyword"
+			],
+			[
+				"Sytem",
+				"System"
+			],
+			[
+				"Sup",
+				"super"
+			],
+			[
+				"Re",
+				"Rectangle"
+			],
+			[
+				"get",
+				"getPerimeter"
+			],
+			[
+				"set",
+				"setB"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"pr",
+				"private"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/js basics/home.html",
+		"/C/Users/Harsh/Desktop/New folder (2)/html.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/Email Validation/form.html",
+		"/D/Eclipse/Telusko/1.Servlet to servlet & Dispatcher/src/com/telusko/SqServlet.java",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/Form validation/myscript.js",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/js basics/j1.js",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/JQuery/Show and Hide/jquery.js",
+		"/C/Users/Harsh/Desktop/html.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/JQuery/Show and Hide/EffectExample.html",
+		"/D/Eclipse/Telusko/1.Servlet to servlet & Dispatcher/WebContent/index.html",
+		"/D/Eclipse/Telusko/1.Servlet to servlet & Dispatcher/src/com/telusko/AddServlet.java",
+		"/D/Eclipse/Telusko/1.Servlet to servlet & Dispatcher/build/classes/com/telusko/AddServlet.class",
+		"/D/minor/build/web/Attempting_Quiz.jsp",
+		"/D/minor/build/web/result.jsp",
+		"/E/minor_extension/build/web/result.jsp",
+		"/C/Users/Harsh/Desktop/Add_details/Add_details.html",
+		"/D/Eclipse/workspace/DemoAp/src/com/telusko/SqServlet.java",
+		"/D/Eclipse/Telusko/4. send redirect cookies/src/com/telusko/SqServlet.java",
+		"/C/Users/Harsh/Desktop/Add_details.html",
+		"/C/Users/Harsh/Downloads/quiz/quiz/quizapp/quizapp/quizapp/quizapp/src/quizapp/Quizapp.java",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/MY HTML/intro/Home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/background color/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/background height and width/home.html",
+		"/C/Users/Harsh/Desktop/feedback/feedback.html",
+		"/D/Eclipse/workspace/DemoAp/build/classes/com/telusko/SqServlet.class",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-8.5.38-src/apache-tomcat-8.5.38-src/java/javax/servlet/http/HttpServlet.java",
+		"/C/Users/Harsh/Desktop/Feedback.html",
+		"/C/Users/Harsh/Downloads/feedbackform_free/feedbackform.htm",
+		"/D/minor_extension/build/web/about_quiz.html",
+		"/C/Users/Harsh/Desktop/minor_extension/build/web/welcome.jsp",
+		"/C/Users/Harsh/Desktop/minor_extension/build/web/about_quiz.html",
+		"/C/Users/Harsh/Desktop/minor_extension/build/web/add_question.html",
+		"/C/Users/Harsh/Desktop/minor_extension/build/web/login.html",
+		"/C/Users/Harsh/Desktop/minor_extension/build/web/register.html",
+		"/D/minor_extension/web/index.jsp",
+		"/D/minor_extension/build/web/index.jsp",
+		"/D/minor_extension/build/web/welcome.jsp",
+		"/C/Users/Harsh/Desktop/minor_extension/build/web/index.jsp",
+		"/C/Users/Harsh/Desktop/minor_extension/web/index.jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/6DHNMT2Y/gfv3ee6[1].dpf",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/Z24EGLYW/add_question[1].html",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/SHCFJX4H/about_quiz[1].html",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/YNGZWEXM/index[1].jsp",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Background image/home.html",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/6DHNMT2Y/login[1].html",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/YNGZWEXM/login[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/SHCFJX4H/logout[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/Z24EGLYW/quiz[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/6DHNMT2Y/register[1].html",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/YNGZWEXM/register[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/SHCFJX4H/result[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/Z24EGLYW/retrieve_questions[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/6DHNMT2Y/submit_questions[1].jsp",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/YNGZWEXM/welcome[1].jsp",
+		"/C/wamp64/www/Saurabh shukla/add.php",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/6DHNMT2Y/about_quiz[1].html",
+		"/C/wamp64/www/Saurabh shukla/home.php",
+		"/C/wamp64/www/Saurabh shukla/AddTwoNum.php",
+		"/C/wamp64/www/Saurabh shukla/how to run php file/home.php",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/Form validation/form.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/CSS properties/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/Function/home2.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/Event Handling/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/accessing Html elements/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/popup box/alert.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/popup box/confirm.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/control statements/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/popup box/prompt.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/Function/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/variable and operators/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/popup box/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/javascript/j1.js",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/my page/My page.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Set position/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/My page.html",
+		"/C/Users/Harsh/Desktop/google.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/margin and padding/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/anchor/welcome2.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/anchor/welcome.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/anchor/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Border style/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/shadow effect/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/space bw Lines and characters/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/font family/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Text Bold/home.html",
+		"/C/Users/Harsh/Desktop/PPL/linkedList.c",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/text transformation/home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Inline_Style/home.html",
+		"/D/Sublime Text 3/final_keyword.java",
+		"/C/Users/Harsh/Desktop/MY HTML/Home.html",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/External_style/home.html",
+		"/C/Users/Harsh/Desktop/MY HTML/ABOUT.HTML",
+		"/C/Users/Harsh/Desktop/PHP-Mysql/CSS/Internal Style.html",
+		"/C/Users/Harsh/Desktop/MY HTML/table/table.html",
+		"/C/Users/Harsh/Desktop/MY HTML/iframe.html",
+		"/C/Users/Harsh/Desktop/MY HTML/form_tag.html",
+		"/C/Users/Harsh/Desktop/MY HTML/table.html",
+		"/D/Sublime Text 3/Test.java",
+		"/D/Sublime Text 3/overloading.java",
+		"/D/MY PHOTOS/shaadi2/VID_20180418_213926.rar",
+		"/C/Users/Harsh/Desktop/java program/Box.java",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/YNGZWEXM/Digital_to_Digital_Conversion(Line_Coding)_-_Unipolar,_Polar,_Bipolar_Coding_with_Examples.mp4[1].vm",
+		"/C/Users/Harsh/AppData/Local/Microsoft/Windows/INetCache/IE/YNGZWEXM/EAadhaar_anil[2].pdf",
+		"/D/netbeans/Reverse/src/reverse/Reverse.java",
+		"/D/netbeans/NoOfVowels/src/noofvowels/NoOfVowels.java",
+		"/D/netbeans/Test.java",
+		"/D/harsh verma/Test.java",
+		"/D/harsh verma/Test..java",
+		"/D/harsh verma/super method/Test1.java",
+		"/D/harsh verma/check super/Test.java",
+		"/D/harsh verma/harsh verma/Shape/Test.java",
+		"/D/harsh verma/New folder (3)/Test.java",
+		"/D/harsh verma/Abstract/Shape/Test.java",
+		"/D/harsh verma/New folder (2)/Test.java",
+		"/D/harsh verma/Test1.java",
+		"/D/harsh verma/Shape/Test.java",
+		"/D/harsh verma/New folder/Test.java",
+		"/D/harsh verma/Check/Test.java",
+		"/D/harsh verma/Test!.java"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "about_quiz.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

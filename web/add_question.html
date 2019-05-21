@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Submit questions</title>
+        <style>
+    
+      header {
+    background:black;
+    padding: 0px 40px 0px 1105px;
+    display: inline-block;
+    margin-top: 0px;
+    background-size: cover;
+    padding-right:11%;
+    padding-bottom: 1%;
+    height:50px;
+}
+
+.logout
+{
+   color: white;
+  font-size: 21px;
+}
+.logout:hover
+      {
+          color:yellow;
+          
+      }
+      .div_logout{
+          width:150%;
+      }
+            h1
+            {
+               font-size: 40px; 
+               width:42%;
+               margin:0px 0px 0px 0px;
+               color: white;
+               display: inline-block;
+               padding: 0px 0px 0px 15px;
+               background:transparent;
+            
+            }
+             body {font-family: Arial, Helvetica, sans-serif;
+      background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:0px;
+   
+             }
+      option{
+          font-size: 20px;
+      }   
+      .options
+      {
+          width: 90%;
+          margin-left: 15px;
+          padding-right: 0px;
+          margin-top: 5px;
+          margin-bottom: 10px;
+          padding-bottom: 15px;
+      }
+      #op{
+          margin-left:75px;
+          color: #666666;
+          text-shadow: 3px 2px white;
+
+      }
+      .main{
+          display:inline-block;
+          margin: 0px 0px 0px 600px;
+          width: 45%;
+          padding: 0px 30px 25px 25px;
+      }
+      label
+      {
+          font-size:20px;
+          color:white;
+          weight:bold;
+      }
+      input
+      {
+           margin: 10px 0px 10px 25px;
+          width: 80%;
+          padding:10px 10px 10px 10px;
+          font-size: 18px;
+          background:none;
+          border:none;
+          border-bottom:solid;
+          border-color:grey;
+          outline:none;
+      }
+      textarea{
+         background-color: #f1f1f1;
+         opacity:0.6;
+         resize: none;
+      }
+      select{
+          font-size: 17px;
+          margin: 15px 3px 15px 15px; 
+          background: transparent;
+          outline: none;
+          border:none;
+      }
+     
+      
+      button
+      {
+          width: 25%;
+          padding: 10px 0px 10px 0px;
+          margin:5px 10px 10px 70px; 
+          background-color:forestgreen;
+          opacity: 0.8;
+          border:none;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+      }
+      button:hover,
+      button:focus
+      {
+          background-color: red;
+         opacity: 0.8; 
+      }
+      .correct_ans
+      {
+          width:10%;
+      }
+        </style>
+     
+    </head>
+<body background="images/img5.jpg">      
+    <form action="submit_questions.jsp" method="post">
+         <header>
+             <div class="div_logout">
+                  <h3>  <a href="logout.jsp" class="logout">Logout >></a></h3>
+          </div> 
+         </header>    
+           
+            <h1>Submit Questions</h1>
+          
+           <div class="main">   
+            <div class="questions">
+                <label>Select type :<label>
+                        
+            <select id = "type" name="typeselected" required>
+                <option hidden selected disabled value="">choose type of question</option>
+               <option value = "aptitude" >Aptitude</option>
+               <option value = "grammar">Grammar</option>
+               <option value = "technical">Technical</option>
+               <option value = "GK">G.K</option>
+             </select>
+                    <br>
+                  
+            <label>Question :</label>
+ <br>
+ <textarea rows="8" cols="68" required name="question"></textarea>
+        </div>
+       <div class="options">
+  <br>  
+           <input type="text" name="opt1" placeholder="option-1" required>
+           <input type="text" name="opt2" placeholder="option-2" required>
+           <input type="text" name="opt3" placeholder="option-3" required>
+           <input type="text" name="opt4" placeholder="option-4" required>
+       </div>
+           <h3 id="op">Correct Option:
+           <input type="radio" class="correct_ans" name="correct_opt" value="1" required>1
+           <input type="radio" class="correct_ans" name="correct_opt" value="2" required>2
+           <input type="radio" class="correct_ans" name="correct_opt" value="3" required>3
+           <input type="radio" class="correct_ans" name="correct_opt" value="4" required>4
+           </h3>
+       
+                <br>
+                <div class="button">    
+                    
+                    <button type='submit'>Submit</button>
+                    <button type='reset'>Reset</button>
+                </div>
+            </div>
+         </form>     
+    </body>
+</html>
+

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>register</title>
+        <style>
+            
+            #main{
+                display: inline-block;
+                margin: 5% 50% 0% 28%;
+                width: 35%;
+                padding:8px 0px 40px 80px;
+                position: relative;
+               
+               
+            }
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                background-size: 1500px;
+                background-repeat: no-repeat;
+                box-sizing: border-box;
+                color:whitesmoke;
+            }
+      
+                .imgcontainer
+                {
+                    text-align: center;
+                    margin: 0px 10px 0px 5px;
+                    position: relative;
+                    padding-top: 0px;
+                    padding-left: 25px;
+                 }
+            
+                 img
+                 {
+                     padding-right: 95px;
+                 }           
+              .close 
+              {
+                        display: inline-block;
+                        position: absolute;
+                        right: 5px;
+                        top: 0px;
+                        color: #ffffff;
+                        font-size: 35px;
+                        font-weight: bold;
+                        margin-top: 0px;
+                       }
+                .close:hover,
+                .close:focus
+                {
+                    color:red;
+                    cursor: pointer;
+                 }
+           
+            input{
+                display: inline-block;
+                font-size: 15px;
+                margin-top: 20px;
+                width: 77%;
+                padding:8px 5px 8px 10px;
+            }
+            select{
+                width:81%;
+                margin-top: 20px;
+                height: 38px;
+                font-size: 15px;
+            }
+            #G1,#G2{
+                width:auto;
+            }
+            button[type=reset],button[type=button]
+            {
+                display: inline-block;
+                font-size: 25px;
+                margin-top: 18px;
+                width: 25%;
+                padding: 8px 10px;
+                margin-right: 20px;
+                margin-left: 40px;
+                color: white;
+                font-family:monospace;
+                background-color: #f44336;
+            }
+            a{
+                display: inline-block;
+                font-size: 25px;
+                margin-top: 18px;
+                width: 25%;
+                padding: 8px 10px;
+                margin-right: 20px;
+                margin-left: 40px;
+                color: white;
+                font-family:monospace;
+                background-color: #f44336;
+                text-decoration: none;
+                text-align: center;
+                border: solid antiquewhite;
+                border-width:1px;
+            }
+            a:hover{
+                background: buttonshadow;
+            }
+            button[type=submit]
+            {
+                width:78%;
+                 display: inline-block;
+                font-size: 25px;
+                margin-top: 18px;
+                padding: 8px 14px;
+                color:white;
+                font-family:monospace;
+                font-weight: bold;
+                background-color:#4CAF50;
+
+            }
+            button:hover,
+            button:focus
+            {
+              
+                opacity: 0.8;
+            }
+            </style>
+            <script>
+            function validate()
+            {
+                var result=true;
+                var i=document.getElementsByName("uname");
+                if(i[0].value.length<5)
+                {
+                    alert("Name should consist of atleast five characters.");
+                    result=false;
+                }
+                else{
+                        var e=document.getElementsByName("mail")[0].value;
+			var atindex=e.indexOf('@');
+			var dotindex=e.lastIndexOf('.');
+			//document.write(dotindex);
+			if(atindex<1 || dotindex>=e.length-2 || dotindex-atindex<3)
+                        {
+                             alert("E-mail should follow :-\n1.) Atleast one character before '@' \n 2.) There should be atleast two characters between '@' and '.'.");
+                            result=false;
+                        }
+                        else
+                        {
+                            var m=document.getElementsByName("mobile_no");
+                            if(m[0].value.length<10)
+                            {
+                                alert("Mobile No. should contain atleast ten numbers.");
+                                result=false;
+                            }
+                            else
+                            {
+                                var pass=document.getElementsByName("pass");
+                                var cpass= document.getElementsByName("cpass");
+                                if(pass[0].value.length<6 || cpass[0].value.length<6)
+                                {
+                                    alert("Password should contain atleast six characters.");
+                                    result=false;
+                                }
+                                else
+                                {
+                                    if(pass[0].value!==cpass[0].value)
+                                    {
+                                        alert("Password and Confirm Password does not match.");
+                                        result=false;
+                                    }
+                                    else
+                                    {
+                                        var code=document.getElementsByName("security_code");
+                                        if(code[0].value.length<5)
+                                        {
+                                            alert("Security code should contain atleast five characters.");
+                                            result=false;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                return(result);
+            }
+            </script>
+    </head> 
+<body class="background" background="images/register.jpg">   
+    <div id="main">
+        <form onsubmit="return validate()" action="register.jsp"  method="post">
+       <div class="imgcontainer">
+            <span onclick="window.location.href='index.jsp'" class="close" title="Close Modal">&times;</span>
+            <img src="images/img10.png" class="img">    
+       </div>
+    <div>
+        <input type="text" name="uname" placeholder="Enter your full name" required>
+        <br>
+        <input type="email" name="mail" placeholder="Enter your E-Mail" required>
+        <br>
+        <input type="date" name="dob" required>
+        <br>
+        <b>Gender:</b>
+        <input type="radio" id="G1" name="gender" value="Male" required><b>M</b><input type="radio" id="G2" name="gender" value="Female" required><b>F</b>
+        <br>
+        <input type="text" name="mobile_no" placeholder="Enter mobile number" required>
+        <br>
+        <select name="qualification" required>
+        <option value="" selected="selected" disabled="disabled"> Select your Qualification</option>
+        <option value="No formal education">No formal education</option>
+        <option value="Primary education">Primary education</option>
+        <option value="Secondary education">Secondary education or high school</option>
+        <option value="Vocational qualification">Vocational qualification</option>
+        <option value="Bachelor degree">Bachelor's degree</option>
+        <option value="Master degree">Master's degree</option>
+        <option value="Doctorate or higher">Doctorate or higher</option>
+        </select>
+        <br>
+        <input type="password" name="pass" placeholder="Enter your password" required>
+        <br>
+        <input type="password" name="cpass" placeholder="Confirm your password" required>
+        <br>
+        <input type="text" name="security_code" placeholder="Enter security code" required>
+        <br>
+        
+<button type="submit" class="submit"><b>REGISTER</b> </button>
+<button type="reset"><b>RESET</b></button>
+<a href="index.jsp"><b>CANCEL</b></a>
+   </div>
+            </form>
+        </div>
+     </body>
+</html>
