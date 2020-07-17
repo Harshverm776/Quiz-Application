@@ -1,0 +1,206 @@
+-- MySQL dump 10.13  Distrib 5.1.33, for Win32 (ia32)
+--
+-- Host: localhost    Database: web_minor
+-- ------------------------------------------------------
+-- Server version	5.1.33-community
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Current Database: `web_minor`
+--
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `web_minor` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `web_minor`;
+
+--
+-- Table structure for table `aptitude`
+--
+
+DROP TABLE IF EXISTS `aptitude`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `aptitude` (
+  `S_No` int(11) NOT NULL AUTO_INCREMENT,
+  `question` varchar(500) NOT NULL,
+  `option1` varchar(50) NOT NULL,
+  `option2` varchar(50) NOT NULL,
+  `option3` varchar(50) NOT NULL,
+  `option4` varchar(50) NOT NULL,
+  `correct_option` varchar(50) NOT NULL,
+  PRIMARY KEY (`S_No`)
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aptitude`
+--
+
+LOCK TABLES `aptitude` WRITE;
+/*!40000 ALTER TABLE `aptitude` DISABLE KEYS */;
+INSERT INTO `aptitude` VALUES (1,'(1015)^2=?','1040125','1030225','1050125','1025125','2'),(2,'Which one is NOT divisible by 3 ?','5271','6291','4372','8952','3'),(3,'Largest five digit number exactly divisible by 39 is:','99979','99956','99989','99996','4'),(4,'Which is not the prime number?','43','57','73','101','2'),(5,'103 x 103 + 97 x 97 = ?','21348','20018','19648','21428','2'),(6,'9848 x 125 = ?','1232000','1242000','1231000','1233000','3'),(7,'How many of the following numbers are divisible by 9 96381, 46729, 54459, 85369, 46818','1','2','4','3','4'),(8,'What will be the next number? 3, 5, 7, 11, 13, 17??.','21','19','25','20','2'),(9,'Choose the missing number in the series: \r\n9, 7, 12, 12, 15, 17, 18, 22, ?','27','21','22','24','2'),(10,'The units digit of (35)^(87) + (93)^(46) is:','4','2','6','NONE OF THESE','1'),(11,'What is the missing number in the following sequence? 2, 12, 60, 240, 720, 1440, .... 0','2880','1440','720','0','2'),(12,'How many strings of 5 digits have the property that the sum of their digits is 7 ?','66','330','495','99','2'),(13,'Consider a set A = {1, 2, 3, ........, 1000}. How many members of A shall be divisible by 3 or by 5 or by both 3 and 5?','533','599','467','66','3'),(14,'The present ages of A, B and C are in proportions 4:5:9. Nine years ago, sum of their ages was 45 years. Find their present ages in years','15,20,35','20,24,36','20,25,45','16,20,36','4'),(15,'A is as older than B as he is younger than C.If the sum of ages of B and C is 68 years. What is the present age of A?','24 years','34 years','28 years','32 years','2'),(16,'Opportunistic reasoning is addressed by which of the following knowledge representation','Script','Blackboard','Production Rules','Fuzzy Logic','2'),(17,'The difference between a two-digit number and the number obtained by interchanging the positions of its digits is 45. What is the difference between the two digits of that number?','5','7','6','None of these','1'),(18,'A two-digit number is such that the product of the digits is 12. When 9 is subtracted from the number, the digits are reversed. The number is:','34','62','43','26','3'),(19,'Find a positive number which when increased by 16 is equal to 80 times the reciprocal of the number','20','-4','-10','4','4'),(20,'What is the sum of two consecutive odd numbers, the difference of whose squares is 56?','30','28','34','32','2'),(21,'India is a federal union comprising twenty-nine states and how many union territories?','6','7','8','9','2'),(22,'Which of the following is the capital of Arunachal Pradesh?','Itanagar','Dispur','Imphal','Shillong','1');
+/*!40000 ALTER TABLE `aptitude` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `feedback`
+--
+
+DROP TABLE IF EXISTS `feedback`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `feedback` (
+  `mail` varchar(50) NOT NULL,
+  `date_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `subject` varchar(200) NOT NULL,
+  `feedback_d` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `feedback`
+--
+
+LOCK TABLES `feedback` WRITE;
+/*!40000 ALTER TABLE `feedback` DISABLE KEYS */;
+INSERT INTO `feedback` VALUES ('harshverm776@gmail.com','2019-03-25 13:22:57','aaaaaaaaaa','bbbbbbbbbbbbbbbbb'),('harshverm776@gmail.com','2019-03-25 13:25:04','aaaaaaaaaa','bbbbbbbbbbbbbbbbb'),('harshverm776@gmail.com','2019-03-25 13:25:11','bbbbbbbb','mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm'),('harshverm776@gmail.com','2019-03-28 02:54:57','aaaaaaaaaaaaa','aaaaaaaaaaaaaaaaa'),('harshverm776@gmail.com','2019-03-28 03:02:40','aaaaaaaaaaaaa','aaaaaaaaaaaaaaaaa'),('akanksha@gmail.com','2019-03-29 18:07:23','qqqqqqqq','qqqqqqqqqqqqqqqqq'),('akanksha@gmail.com','2019-03-29 18:08:45','qqqqqqqqqqqq','eeeeeeeeeeeeeeeeeeeeee'),('akanksha@gmail.com','2019-03-29 18:09:20','qqqqqqqqqqqq','eeeeeeeeeeeeeeeeeeeeee'),('akanksha@gmail.com','2019-03-29 18:36:17','wwwwwwwwwwwwwwwww','qqqqqqqqqqqqqqqqqq'),('akanksha@gmail.com','2019-03-29 18:37:37','wwaaaaaaaaaaaaaaa','aaaaaaaaaaaaaaaaa'),('akanksha@gmail.com','2019-03-29 18:38:11','wwaaaaaaaaaaaaaaa','aaaaaaaaaaaaaaaaa'),('akanksha@gmail.com','2019-03-29 18:40:22','wwaaaaaaaaaaaaaaa','aaaaaaaaaaaaaaaaa'),('harshverm776@gmail.com','2019-04-01 05:09:35','hhhhhhhhhhhhhh','gggggggggggggggg'),('harshverm776@gmail.com','2019-04-04 13:47:37','null','null'),('harshverm776@gmail.com','2019-04-17 15:42:24','iiiiiiiiiiiiiii','wwwwwwwwwwww');
+/*!40000 ALTER TABLE `feedback` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `gk`
+--
+
+DROP TABLE IF EXISTS `gk`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `gk` (
+  `S_No` int(11) NOT NULL AUTO_INCREMENT,
+  `question` varchar(500) NOT NULL,
+  `option1` varchar(50) NOT NULL,
+  `option2` varchar(50) NOT NULL,
+  `option3` varchar(50) NOT NULL,
+  `option4` varchar(50) NOT NULL,
+  `correct_option` varchar(50) NOT NULL,
+  PRIMARY KEY (`S_No`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `gk`
+--
+
+LOCK TABLES `gk` WRITE;
+/*!40000 ALTER TABLE `gk` DISABLE KEYS */;
+INSERT INTO `gk` VALUES (1,'What are the major languages spoken in Andhra Pradesh?','English and Telugu',' Telugu and Urdu',' Telugu and Urdu','All of the above languages','2'),(2,'What is the state flower of Haryana?','Lotus',' Rhododendron','Golden Shower','Not declared','1'),(3,' Which of the following states is not located in the North?','Jharkhand','Jammu and Kashmir','Himachal Pradesh','Haryana','1'),(4,'In which state is the main language Khasi?','Mizoram','Nagaland','Meghalaya','Tripura','3'),(5,'Which state has Almond as its State Tree?','Himachal Pradesh','Goa','Jammu and Kashmir','Arunachal Pradesh','3'),(6,'Which state has the largest area?','Maharashtra','Madhya Pradesh','Uttar Pradesh','Rajasthan','4'),(7,' Which state has the largest population?','Uttar Pradesh','Maharastra','Bihar','Andra Pradesh','1'),(8,'In what state are the Elephant Falls located?','Mizoram','Orissa','Manipur','Meghalaya','4'),(9,'	\r\nKiran Bedi received Magsaysay Award for government service in','1992','1993','1994','1995','3'),(10,'Logarithm tables were invented by','John Napier','John Doe','John Harrison','John Douglas','1');
+/*!40000 ALTER TABLE `gk` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `grammar`
+--
+
+DROP TABLE IF EXISTS `grammar`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `grammar` (
+  `S_No` int(11) NOT NULL AUTO_INCREMENT,
+  `question` varchar(500) NOT NULL,
+  `option1` varchar(50) NOT NULL,
+  `option2` varchar(50) NOT NULL,
+  `option3` varchar(50) NOT NULL,
+  `option4` varchar(50) NOT NULL,
+  `correct_option` varchar(50) NOT NULL,
+  PRIMARY KEY (`S_No`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `grammar`
+--
+
+LOCK TABLES `grammar` WRITE;
+/*!40000 ALTER TABLE `grammar` DISABLE KEYS */;
+INSERT INTO `grammar` VALUES (1,'Which one of the following options is the closest in meaning to the word given below? Nadir','Highest','Lowest','Medium','Integration','2'),(2,' Complete the sentence: Universalism is to particularism as diffuseness is to_________','Specificity','Neutrality','Generality','Adaptation','1'),(3,'Were you a bird, you ______________ in the sky.','would fly','shall fly','should fly','shall have flown','1'),(4,'Choose the grammatically INCORRECT sentence:','He is of Asian origin.','They belonged to Africa.','She is an European.','They migrated from India to Australia.','3'),(5,'Choose the most appropriate alternative from the options given below to complete the following sentence: Despite several ________ the mission succeeded in its attempt to resolve the conflict.','attempts','setbacks','meetings','delegations','2'),(6,'Which one of the following options is the closest in meaning to the word given below? Mitigate','Diminish','Divulge','Dedicate','Denote','1'),(7,'Choose the most appropriate alternative from the options given below to complete the following sentence: Suresh\'s dog is the one ______ was hurt in the stampede.','that','which','who','whom','1'),(8,'Which of the following options is the closest in the meaning to the word below: Inexplicable','Incomprehensible','Indelible','Inextricable','Infallible','1'),(9,'Choose the most appropriate word (s) from the options given below to complete the following sentence. I Contemplated ____________ Singapore for my vacation but decided against it.','to visit','having to visit','visiting','for a visit','3'),(10,'Which of the following options is closest in meaning to the word Circuitous.','cyclic','indirect','confusing','crooked','2'),(11,'Choose the most appropriate word from the options given below to complete the following sentence: If we manage to ____________ our natural resources, we would leave a better planet for our children.','uphold','restrain','cherish','conserve','4'),(12,'The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair. Unemployed: Worker','fallow: land','unaware: sleeper','wit: jester','renovated: house','1'),(13,'Which of the following options is the closest in meaning to the phrase underlined in the sentence below? It is fascinating to see life forms cope with varied environmental conditions.','adopt to','adapt to','adept in ','accept with','2'),(14,'In a press meet on the recent scam, the minister said, \"The buck stops here\". What did the minister convey by the statement?\r\n','He wants all the money','He will return the money','He will assume final responsibility','He will resist all enquiries','3'),(15,'Who ___________ was coming to see us this evening?','you said','did you say','did you say that ','had you','2'),(16,'If she _______________ how to calibrate the instrument, she _______________ done the experiment.','knows, will have','knew, had','had known, could have','should have known, would have','3'),(17,'Choose the word that is opposite in meaning to the word ?coherent?.','sticky','well-connected','rambling','friendly','3'),(18,'Didn?t you buy _________ when you went shopping?','any paper','much paper','no paper','a few paper','1'),(19,'Which of the following options is the closest in meaning to the sentence below?\r\nShe enjoyed herself immensely at the party.','She had a terrible time at the party','She had a horrible time at the party','She had a terrific time at the party','She had a terrifying time at the party','3'),(20,'Which one of the following combinations is incorrect?','Acquiescence - Submission','Wheedle - Roundabout','Flippancy - Lightness','Profligate - Extravagant','2');
+/*!40000 ALTER TABLE `grammar` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `technical`
+--
+
+DROP TABLE IF EXISTS `technical`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `technical` (
+  `S_No` int(11) NOT NULL AUTO_INCREMENT,
+  `question` varchar(500) NOT NULL,
+  `option1` varchar(50) NOT NULL,
+  `option2` varchar(50) NOT NULL,
+  `option3` varchar(50) NOT NULL,
+  `option4` varchar(50) NOT NULL,
+  `correct_option` varchar(50) NOT NULL,
+  PRIMARY KEY (`S_No`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `technical`
+--
+
+LOCK TABLES `technical` WRITE;
+/*!40000 ALTER TABLE `technical` DISABLE KEYS */;
+INSERT INTO `technical` VALUES (1,'	\r\nWhich of the following languages is more suited to a structured program?','PL/1','Fortran','Basic','Pascal','4'),(2,'A computer assisted method for the recording and analyzing of existing or hypothetical systems is','Data transmission','Data flow','Data cature','Data processing','2'),(3,'The brain of any computer system is','ALU','Memory','CPU','Control Unit','3'),(4,'What difference does the 5th generation computer have from other generation computers?','Technological advancement','Scientific code','Object Oriented Programming','All of the above','1'),(5,'Which of the following computer language is used for artificial intelligence?','Fortran','prolog','c ','Cobol','2'),(6,'The tracks on a disk which can be accessed without repositioning the R/W heads is','Surface','Cylinder','Cluster','all of the above','2'),(7,'A section of code to which control is transferred when a processor is interrupted is known as','M','SVC','IP','MDR','1'),(8,'Which part interprets program instructions and initiate control operations.','Input','Storage unit','Logic Unit','Control unit','4'),(9,'The binary system uses powers of','2','10','8','16','1'),(10,'What is the full form of CSS-','Compound Style Sheet','Cascading Style Show','Cascading Style Sheet','Constructive Style Sheet','3');
+/*!40000 ALTER TABLE `technical` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user` (
+  `name` varchar(30) NOT NULL,
+  `mail` varchar(50) NOT NULL,
+  `dob` varchar(10) NOT NULL,
+  `gender` varchar(10) NOT NULL,
+  `mobile_no` varchar(10) NOT NULL,
+  `qualification` varchar(40) NOT NULL,
+  `security_code` varchar(40) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  PRIMARY KEY (`mail`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user`
+--
+
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES ('harsh verma','harshverm776@gmail.com','1998-01-01','Male','1234567890','Bachelor degree','85858','123456');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-07-17  2:35:55
