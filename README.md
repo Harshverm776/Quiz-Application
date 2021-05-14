@@ -6,5 +6,4 @@ It contain a folder **"Info"** which contain all the information regarding proje
 
 **Note :** For copying the database **"web_minor"** you can use this- https://www.mysqltutorial.org/mysql-copy-database/ also note that the _"mysqldump"_ is runned from shell and _"mysql"_ can be run simply on command line.
 
-**Youtube Video -**
-[Quiz Application](https://youtu.be/0bs17B4CSKQ)
+**Youtube Video -** https://youtu.be/0bs17B4CSKQ
